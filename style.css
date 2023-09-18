@@ -1,0 +1,267 @@
+* {
+    scroll-behavior: smooth;
+}
+nav{
+    height: 80px;
+    background-color: brown;
+}
+
+nav div{
+    height: 80px;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.left {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    transition: 10s;
+    padding-top: 15px;
+    transition: text-decoration 0.6s;
+}
+
+.left:hover{
+    text-decoration: underline;
+}
+
+.sec-one{
+    min-height: 400px;
+}
+
+.banner-title{
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-weight: bolder;
+}
+
+.banner-desc{
+    padding-right: 35px;
+    font-size: 22px;
+    column-rule: darkred;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.banner-btn{
+    all: unset;
+    margin-top: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: background-color 0.7s;
+}
+
+.banner-btn:hover{
+    background-color: brown;
+    color: white;
+}
+
+.section-two{
+    min-height: 550px;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px 1px #000000a8;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+.card-img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card-title{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px 12px;
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.card-btn{
+    all: unset;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+span{
+    border: 1px solid rgb(212, 74, 74);
+    color: white;
+    background-color: rgb(212, 74, 74);
+    padding: 7px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+#sec-3{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 26px;
+}
+
+.section-3{
+    box-shadow: 0px -7px 15px 3px #00000054;
+    background-color: rgba(230, 218, 218, 0.26);
+}
+
+.service-section{
+    min-height: 550px;
+    align-items: center;
+    border-top: 0.1px solid black;
+}
+
+.service-card{
+    min-height: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 0px 6px 1px #000000a8;
+    transition: 0.5s;
+    border-radius: 14px;
+
+}
+
+.service-card:hover{
+    transform: scale(1.04);
+}
+
+.service-title{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.service-btn{
+    all: unset;
+    color: white;
+    background-color: brown;
+    border: 1px solid brown;
+    padding: 10px 0px;
+    width: 50%;
+    margin-top: 11px;
+    border-radius: 7px;
+    margin-left: 25%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.service-btn:hover{
+    transform: scale(1.02);
+}
+
+.about-section {
+    min-height: 550px;
+}
+
+#about-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0;
+}
+
+.about-top-card{
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 1px #000000a8;
+
+}
+
+.about-side{
+    min-height: 350px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    background-color: white;
+}
+
+.side-left{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all 0.7s;
+    box-shadow: -3px 1px 6px 1px #000000a8
+}
+
+.side-left:hover{
+    transform: scale(1.02);
+}
+
+.side-right{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.7s;
+    box-shadow: 2px 2px 6px 1px #000000a8; 
+}
+
+.side-right:hover{
+    transform: scale(1.02);
+}
+
+.progress{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 18px 0;
+}
+
+.progress-title{
+    font-size: 23px;
+}
+
+.progress-cover{
+    height: 23px;
+    width: 75%;
+    text-align: right;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
+
+.progress-bar{
+    height: 22px;
+    background-color: darkblue;
+    width: 93%;
+    border-radius: 9px;
+}
+
+footer{
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: brown;
+    min-height: 200px;
+}
+
+.footer-title{
+    color:white;
+    font-size: 25px;
+}
+
+.footer-text{
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
